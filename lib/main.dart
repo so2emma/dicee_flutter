@@ -29,6 +29,7 @@ class DicePage extends StatelessWidget {
             child: TextButton(
               onPressed: () {
                 // Respond to button press
+                print('left button got pressed');
               },
               child: Image.asset('images/dice2.png'),
             ),
@@ -37,6 +38,7 @@ class DicePage extends StatelessWidget {
             child: TextButton(
               onPressed: () {
                 // Respond to button press
+                print('right button got pressed');
               },
               child: Image.asset('images/dice1.png'),
             ),
